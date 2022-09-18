@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Choubik",
+    "slug": "Choubik",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#8fb7bd"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maxCompany.choubik",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "The application need your exact location to estimate the delivery fees.",
+        "NSLocationAlwaysUsageDescription": "The application need your exact location to estimate the delivery fees."
+      }
+    },
+    "android": {
+      "versionCode": 18,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAqPGa_QkVKiCZW7Mg1N9N9BfxwIx6OqIE"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-icon-background.png"
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "package": "com.maxCompany.choubik"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
